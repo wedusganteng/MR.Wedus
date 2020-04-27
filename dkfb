@@ -84,7 +84,7 @@ def loginSC():
 	print"\033[1;97mSilahkan login SC nya dulu bosque\n"
 	username = raw_input("\033[1;96m[*] \033[1;97mUsername \033[1;91m: \033[1;92m")
 	password = raw_input("\033[1;96m[*] \033[1;97mPassword \033[1;91m: \033[1;92m")
-	if username =="MR.Wedus" and password =="MR.Wedus":
+	if username =="MR.Wedus" and password =="Error404":
 		print"\033[1;96m[✓] \033[1;92mLogin success"
 		time.sleep(1)
 		login()
@@ -139,7 +139,7 @@ def login():
 				print"\n\033[1;96m[!] \x1b[1;91mTidak ada koneksi"
 				keluar()
 		if 'checkpoint' in url:
-			print("\n\033[1;96m[!] \x1b[1;91mSepertinya akun anda kena checkpoint")
+			print("\n\033[1;96m[!] \x1b[1;91mSepertinya anda kurang beruntung bos:v")
 			os.system('rm -rf login.txt')
 			time.sleep(1)
 			keluar()
